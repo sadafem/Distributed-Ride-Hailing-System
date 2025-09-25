@@ -1,4 +1,4 @@
-# Distributed Taxi Management System 🚖
+# Distributed Ride-Hailing System 🚖
 
 A C++ project that simulates a **ride-hailing platform** with drivers, passengers, and administrators.  
 The system is implemented using **object-oriented programming, client–server architecture, and a Qt-based GUI**.
