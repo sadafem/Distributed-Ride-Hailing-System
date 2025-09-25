@@ -29,7 +29,7 @@ The system is implemented using **object-oriented programming, client–server a
 
 ## 🛠️ Tech Stack
 - **Language:** C++ (C++17)  
-- **Frameworks/Libraries:** Qt (GUI), Standard Template Library (STL)  
+- **Frameworks/Libraries:** Qt (GUI)
 - **Architecture:** Client–Server Model  
 - **Build System:** GNU Make, Makefile-based compilation  
 
