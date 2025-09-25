@@ -1,7 +1,7 @@
 # Distributed Taxi Management System 🚖
 
-A multi-phase C++ project that simulates a **ride-hailing platform** with drivers, passengers, and administrators.  
-The system is implemented using **object-oriented programming, client–server architecture, and a Qt-based graphical user interface (GUI)**.
+A C++ project that simulates a **ride-hailing platform** with drivers, passengers, and administrators.  
+The system is implemented using **object-oriented programming, client–server architecture, and a Qt-based GUI**.
 
 ---
 
