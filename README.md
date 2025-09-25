@@ -32,4 +32,4 @@ The system is implemented using **object-oriented programming, client–server a
 - **Frameworks/Libraries:** Qt (GUI), Standard Template Library (STL)  
 - **Architecture:** Client–Server Model  
 - **Build System:** GNU Make, Makefile-based compilation  
-- **Environment:** Linux, g++ compiler  
+
