@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>run</class>
+ <widget class="QWidget" name="run">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="set_status">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>40</y>
+     <width>110</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>set status</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="show_trip">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>90</y>
+     <width>110</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>show trip</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="accept_trip">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>110</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>accept trip</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
