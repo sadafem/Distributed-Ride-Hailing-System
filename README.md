@@ -24,11 +24,17 @@ A comprehensive distributed ride-hailing platform built with C++ and Qt, simulat
 ## 🌌 System Overview
 
 The system operates across multiple galaxies with defined topology, featuring various Star Wars-themed vehicles for transportation. Users can register as passengers or drivers, with drivers requiring admin approval to become active.
-├── server/ # Central server application
-├── passenger/ # Passenger GUI client
-├── driver/ # Driver GUI client
-├── topology.cfg # Galaxy/planet configuration
-└── vehicles.cfg # Available spaceship models 
+
+
+## 📁 Project Structure
+
+```text
+├── server/         # Central server application
+├── passenger/      # Passenger GUI client
+├── driver/         # Driver GUI client
+├── topology.cfg    # Galaxy/planet configuration
+└── vehicles.cfg    # Available spaceship models
+```
 
 
 
