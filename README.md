@@ -29,11 +29,11 @@ The system operates across multiple galaxies with defined topology, featuring va
 ## 📁 Project Structure
 
 ```text
-├── server/         # Central server application
-├── passenger/      # Passenger GUI client
-├── driver/         # Driver GUI client
-├── topology.cfg    # Galaxy/planet configuration
-└── vehicles.cfg    # Available spaceship models
+├── server/               # Central server application
+│   ├── topology.cfg      # Galaxy/planet configuration
+│   └── vehicles.cfg      # Available spaceship models
+├── passenger/            # Passenger GUI client
+└── driver/               # Driver GUI client
 ```
 
 
