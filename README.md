@@ -1,35 +1,40 @@
-# Distributed Ride-Hailing System 🚖
+# 🚀 Distributed Space Transportation System
 
-A C++ project that simulates a **ride-hailing platform** with drivers, passengers, and administrators.  
-The system is implemented using **object-oriented programming, client–server architecture, and a Qt-based GUI**.
+A comprehensive distributed ride-hailing platform built with C++ and Qt, simulating a space transportation network across multiple galaxies and planets.
 
----
+## 🌟 Features
 
-## 📌 Features
+- **Multi-Client Architecture**: Separate passenger and driver GUI applications
+- **Real-time Communication**: Socket-based client-server architecture
+- **Space Theme**: Star Wars-inspired spaceship fleet management
+- **User Management**: Passenger registration, driver approval system
+- **Trip Management**: Complete trip lifecycle from request to completion
+- **VIP System**: Special handling for VIP passengers
+- **Rating System**: Driver feedback and evaluation
+- **Admin Dashboard**: System management and reporting
 
-### Phase 1 – Command-Line System
-- Implemented a CLI-based taxi booking platform.  
-- Supported **user registration** (drivers, passengers, admins).  
-- Integrated **trip requests, payments, driver ratings, and reporting**.  
-- Designed **algorithms** for trip cost estimation, shortest path calculation, and driver selection.  
+## 🛠️ Technology Stack
 
-### Phase 2 – Client–Server Architecture
-- Built a **central server** with separate **driver and passenger clients**.  
-- Implemented **network communication** between clients and the server.  
-- Added support for **admin operations** (e.g., verifying drivers, system reports).  
-- Ensured modular, scalable, and maintainable design.  
+- **Backend**: C++ with custom socket implementation
+- **Frontend**: Qt 5.15+ for cross-platform GUI
+- **Architecture**: Client-Server with real-time communication
+- **Build System**: Makefile for server, Qt project files for clients
 
-### Phase 3 – Qt Graphical User Interface
-- Developed a **cross-platform GUI** using **Qt** for drivers and passengers.  
-- Implemented **real-time updates** for trip cost/distance estimation.  
-- Designed GUI components for **login, registration, account management, and trip status**.  
-- Integrated **business logic from earlier phases** into the GUI for clean architecture.  
 
----
+## 🌌 System Overview
 
-## 🛠️ Tech Stack
-- **Language:** C++ (C++17)  
-- **Frameworks/Libraries:** Qt (GUI)
-- **Architecture:** Client–Server Model  
-- **Build System:** GNU Make, Makefile-based compilation  
+The system operates across multiple galaxies with defined topology, featuring various Star Wars-themed vehicles for transportation. Users can register as passengers or drivers, with drivers requiring admin approval to become active.
+├── server/ # Central server application
+├── passenger/ # Passenger GUI client
+├── driver/ # Driver GUI client
+├── topology.cfg # Galaxy/planet configuration
+└── vehicles.cfg # Available spaceship models 
 
+
+
+## 🎯 Key Components
+
+- **Server**: Handles user authentication, trip management, and system administration
+- **Passenger Client**: Trip requests, account management, driver rating
+- **Driver Client**: Trip acceptance, status management, spaceship handling
+- **Configuration**: Galaxy topology and vehicle fleet management
