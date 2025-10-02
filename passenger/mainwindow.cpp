@@ -7,7 +7,7 @@ MainWindow::MainWindow(passenger_client* pc ,QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     P_C = pc;
-    this->setStyleSheet("QWidget {background-image: url(/home/navid/Codes/assignment/A7/phase3/main.jpg) }");
+    this->setStyleSheet("QWidget {background-image: url(/Users/sadaf/Downloads/Advance programming/Assignment/A7/phase 3/main.jpg) }");
     ui->setupUi(this);
 }
 

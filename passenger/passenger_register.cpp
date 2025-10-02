@@ -7,7 +7,7 @@ passenger_register::passenger_register(passenger_client* pc , QWidget *parent) :
 {
     P_C = pc;
     QPalette pallet;
-    pallet.setBrush(this->backgroundRole() , QBrush(QImage("/home/navid/Codes/assignment/A7/phase3/other.png")));
+    pallet.setBrush(this->backgroundRole() , QBrush(QImage("/Users/sadaf/Downloads/Advance programming/Assignment/A7/phase 3/other.png")));
     this->setPalette(pallet);
     ui->setupUi(this);
     ui->invalid_username->hide();
